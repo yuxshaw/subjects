@@ -1,0 +1,53 @@
+/* 一级导航样式 */
+#nav{
+    background-color: #000;
+    padding: 14px 0;
+}
+#nav p{
+    font-size: 12px;
+    color: #bcbaba; 
+}
+#nav p>a{
+    font-size: 12px;
+    color: #bcbaba;
+}
+#nav .nav-title{
+    display: flex;
+    justify-content: start;
+    margin: 0 auto;
+}
+#nav .nav-title li{
+    padding: 0 3px;
+    height: 15px;
+    border-right: 1px solid #bcbaba;
+    line-height: 15px;
+}
+#nav .nav-title li:nth-child(4){
+    border: none;
+    margin-right: 42px;
+}
+#nav .nav-title li:last-child{
+    border: none;
+}
+#nav .nav-title li>a{
+    font-size: 12px;
+    color: #bcbaba;
+}
+
+/* logo样式 */
+#logo{
+    background-color: #ffffff;
+    padding: 28px 0 32px;
+}
+
+/* 二级导航 */
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.navbar .collapse{
+    margin: 0 auto;
+}
+.navbar .collapse .navbar-nav{
+    margin: 0 auto;
+}

@@ -1,0 +1,45 @@
+/* 内容content样式 */
+.content{
+    width: 100%;
+}
+.content>h2{
+    font-size: 24px;
+    color: #1f1f1f;
+    margin-left: 15%;
+}
+article{
+    margin: 0 auto;
+    width: 930px;
+    padding: 30px 28px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 1px #e7e7e7;
+}
+article .top{
+    margin-bottom: 132px;
+}
+article .center{
+    margin-bottom: 132px;
+}
+article .word >h2{
+    height: 47px;
+    font-size: 22px;
+    line-height: 47PX;
+    color: #252c32;
+    background: url(../images/one.png) no-repeat left center;
+    text-indent: 2em;
+}
+article .word:nth-child(2)>h2{
+    background: url(../images/two.png) no-repeat left center;
+}
+article .word:nth-child(3)>h2{
+    background: url(../images/three.png) no-repeat left center;
+}
+article .word >p{
+    margin-top: 32px;
+    width: 490px;
+    font-size: 16px;
+    color: #46525f;
+    line-height: 22px;
+}

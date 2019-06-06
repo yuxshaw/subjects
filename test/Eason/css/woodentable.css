@@ -1,0 +1,386 @@
+@charset "utf-8";
+
+/* banner样式 */
+.banner{
+    background-color: #000;
+    width: 100%;
+}
+
+.banner .link p{
+    font-size: 12px;
+    color: #b9b9b9;
+    padding-top:22px;
+    margin-left: 15.3%;
+}
+
+.banner .ad{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.banner .ad h1{
+    margin: 0;
+    font-size: 72px;
+    color: #ffffff;
+}
+
+.banner .ad img{
+    margin-top: 38px;
+}
+
+.banner .ad p{
+    margin-top: 60px;
+    font-size: 18px;
+    color: #878787;
+    line-height: 27px;
+}
+
+
+/* femalewatch样式 */
+.femalewatch{
+    background-color: #000;
+    width: 100%;
+    border-top: 1px solid #a0a0a0;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.femalewatch .top{
+    background: url(../images/femalewatch_bg.jpg) no-repeat;
+    background-size: 100%;
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+
+.femalewatch .top h2{
+    margin-left: 15.3%;
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.femalewatch .top p{
+    width: 29.2%;
+    margin-top: 30px;
+    margin-left: 15.3%;
+    font-size: 18px;
+    color: #878787;
+    line-height: 36px;
+}
+
+.femalewatch .bottom{
+    text-align: center;
+    position: relative;
+    padding-bottom: 160px;
+}
+
+.femalewatch .bottom .list{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+.femalewatch .bottom h2{
+    margin-top: 60px;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.femalewatch .bottom .list ul{
+    margin: 0 auto;
+    margin-top: 120px;
+    width: 70.9%;
+    text-align: center;
+}
+
+.femalewatch .bottom .list ul li{
+    width: 24.9%;
+    float: left;
+    border-right: 1px solid #a0a0a0;
+}
+
+.femalewatch .bottom .list ul li:last-child{
+    border: none;
+}
+
+.femalewatch .bottom .list .ul2 li p{
+    margin-top: 40px;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 21px;
+}
+
+.femalewatch .bottom .list a{
+    position: absolute;
+    display: block;
+    font-size: 100px;
+    color: #3e3e3e;
+    top: 35%;
+}
+
+.femalewatch .bottom .list .left{
+    left: 5%;
+}
+
+.femalewatch .bottom .list .right{
+    right: 5%;
+}
+
+
+.femalewatch .bottom .list1{
+    text-align: center;
+    margin: 0 auto;
+    width: 70.9%;
+}
+
+.femalewatch .bottom .list1 ul{
+    width: 100%;
+    text-align: center;
+}
+
+.femalewatch .bottom .list1 ul li{
+    width: 25%;
+    float: left;
+}
+
+.femalewatch .bottom .list1 .ul2 li p{
+    margin-top: 35px;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 21px;
+}
+
+.femalewatch .bottom .status{
+    position: absolute;
+    width: 100%;
+    bottom: 13%;
+}
+
+.femalewatch .bottom .status ul{
+    width: 87px;
+    margin: 0 auto;
+}
+
+.femalewatch .bottom .status ul li{
+    width: 29px;
+    height: 29px;
+    float: left;
+    color: #878787;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.femalewatch .bottom .status ul li:hover{
+    color: #ffffff;
+}
+
+/* malewatch样式 */
+.malewatch{
+    background-color: #000;
+    width: 100%;
+}
+
+.malewatch .top{
+    background: url(../images/malewatch_bg.jpg) no-repeat;
+    background-size: 100%;
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+
+.malewatch .top h2{
+    margin-left: 52.4%;
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.malewatch .top p{
+    width: 29.2%;
+    margin-top: 30px;
+    margin-left: 52.4%;
+    font-size: 18px;
+    color: #878787;
+    line-height: 36px;
+}
+
+.malewatch .bottom{
+    text-align: center;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.malewatch .bottom .list{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+.malewatch .bottom h2{
+    margin-top: 60px;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.malewatch .bottom .list ul{
+    margin: 0 auto;
+    margin-top: 120px;
+    width: 70.9%;
+    text-align: center;
+}
+
+.malewatch .bottom .list ul li{
+    width: 24.9%;
+    float: left;
+    border-right: 1px solid #a0a0a0;
+}
+
+.malewatch .bottom .list ul li:last-child{
+    border: none;
+}
+
+.malewatch .bottom .list .ul2 li p{
+    margin-top: 40px;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 21px;
+}
+
+.malewatch .bottom .list a{
+    position: absolute;
+    display: block;
+    font-size: 100px;
+    color: #3e3e3e;
+    top: 35%;
+}
+
+.malewatch .bottom .list .left{
+    left: 5%;
+}
+
+.malewatch .bottom .list .right{
+    right: 5%;
+}
+
+
+.malewatch .bottom .list1{
+    text-align: center;
+    margin: 0 auto;
+    width: 70.9%;
+}
+
+.malewatch .bottom .list1 ul{
+    width: 100%;
+    text-align: center;
+}
+
+.malewatch .bottom .list1 ul li{
+    width: 25%;
+    float: left;
+}
+
+.malewatch .bottom .list1 .ul2 li p{
+    margin-top: 35px;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 21px;
+}
+
+.malewatch .bottom .status{
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+}
+
+.malewatch .bottom .status ul{
+    width: 87px;
+    margin: 0 auto;
+}
+
+.malewatch .bottom .status ul li{
+    width: 29px;
+    height: 29px;
+    float: left;
+    color: #878787;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.malewatch .bottom .status ul li:hover{
+    color: #ffffff;
+}
+
+
+/* style样式 */
+.style{
+    background-color: #faf9f7;
+    width: 100%;
+    position: relative;
+    padding-top: 114px;
+    padding-bottom: 45px;
+}
+
+.style .top{
+    background: url(../images/style_bg1.jpg) no-repeat;
+    background-size: 100%;
+    margin: 0 auto 15px;
+    width: 81.1%
+}
+
+.style .top h2{
+    padding-top: 110px;
+    padding-left: 9%;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.style .top a{
+    display: block;
+    margin-top: 17px;
+    padding-left: 9%;
+    padding-bottom: 125px;
+    font-size: 14px;
+    color: #c5842d;
+}
+
+.style .bottom{
+    background: url(../images/style_bg2.jpg) no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    width: 81.3%;
+}
+
+.style .bottom h2{
+    padding-top: 110px;
+    padding-left: 9%;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.style .bottom a{
+    display: block;
+    margin-top: 17px;
+    padding-left: 9%;
+    padding-bottom: 76px;
+    font-size: 14px;
+    color: #c5842d;
+}
+
+.style .return{
+    margin-top: 50px;
+}
+
+.style .return a{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 6.25%;
+    height: 35px;
+    background-color: #9c9c9c;
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 36px;
+}

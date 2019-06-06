@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>产品列表</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/product_list.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- 头部导航 -->
+        <header>
+            <a class="logo fl" href="index.html"><img src="images/logo.png" alt=""></a>
+            <a class="weibo" href=""><img src="images/weibo.png" alt=""></a>
+            <ul class="nav-bar fr">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="aboutUs.html">关于诺立美</a></li>
+                <li><a href="news.html">最新动态</a></li>
+                <li class="active"><a href="product_list.html">产品展示</a></li>
+                <li><a href="">专业课堂</a></li>
+                <li><input type="text" class="select" placeholder=""></li>
+            </ul>
+            <div class="clear"></div>
+        </header>
+
+        <div class="product">
+            <div class="listbox">
+                <ul class="list" id="list">
+                    <li>
+                        <a href="product_select.html">
+                            <img src="images/list-1.png" alt="">
+                            <p>清痘系列</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/list-2.png" alt="">
+                            <p>淡斑系列</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/list-3.png" alt="">
+                            <p>补水系列</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/list-4.png" alt="">
+                            <p>通用系列</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/list-5.png" alt="">
+                            <p>优惠套盒</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="product_select.html">
+                            <img src="images/list-1.png" alt="">
+                            <p>清痘系列</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/list-2.png" alt="">
+                            <p>淡斑系列</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/list-3.png" alt="">
+                            <p>补水系列</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/list-4.png" alt="">
+                            <p>通用系列</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/list-5.png" alt="">
+                            <p>优惠套盒</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="product_select.html">
+                            <img src="images/list-1.png" alt="">
+                            <p>清痘系列</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/list-2.png" alt="">
+                            <p>淡斑系列</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/list-3.png" alt="">
+                            <p>补水系列</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/list-4.png" alt="">
+                            <p>通用系列</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/list-5.png" alt="">
+                            <p>优惠套盒</p>
+                        </a>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="btn" id="prev"> &lt; </div>
+            <div class="btn" id="next"> &gt; </div>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <a class="fl" href="index.html"><img src="images/logo_1.png" alt=""></a>
+            <ul class="fr">
+                <li><a href="">联系我们</a></li>
+                <li><a href="aboutUs.html">关于诺立美</a></li>
+                <li><a href="news.html">最新动态</a></li>
+                <li><a href="product_list.html">产品展示</a></li>
+                <li><a href="">专业课堂</a></li>
+                <li>粤ICP备 12088417号-1</li>
+            </ul>
+            <div class="clear"></div>
+        </footer>
+    </div>
+
+    <script>
+        //获取list列表元素
+        var list = document.getElementById('list');
+        //获取list下面的li元素
+        var li_arr = list.getElementsByTagName('li');
+        // console.log(li_arr);
+        //设置list的宽度
+        list.style.width = li_arr.length * 212 + 'px';
+        //定义一个索引
+        var index = 0;
+        //定义一个变量，存储定时器标识
+        var T;
+
+        for (var i = 0; i < li_arr.length; i++) {
+            li_arr[i].num = i;
+            li_arr[i].onclick = function () {
+                index = this.num;
+                list.style.left = -212 * index + 'px';
+                setFocus();
+            }
+        }
+
+        autoChange();
+
+        //prev按钮
+        var prev = document.getElementById('prev');
+        //next按钮
+        var next = document.getElementById('next');
+        prev.onclick = function () {
+            move(212);
+            if (index == 0) {
+                index = li_arr.length - 1;
+            } else {
+                index--;
+            }
+        }
+        next.onclick = function () {
+            move(-212);
+            if (index == li_arr.length - 1) {
+                index = 0;
+            } else {
+                index++;
+            }
+        }
+        //按钮事件函数
+        function move(offset) {
+            var new_left = parseInt(list.style.left) + offset;
+            list.style.left = new_left + 'px';
+            if (new_left == 212) {
+                list.style.left = -212 * (li_arr.length - 1) + 'px';
+            }
+            if (new_left == -212 * (li_arr.length - 1)) {
+                list.style.left = 0 + 'px';
+            }
+        }
+
+        function autoChange() {
+            T = setInterval(function () {
+                list.style.left = -212 * index + 'px';
+                index++;
+                if (index >= li_arr.length-4) {
+                    index = 0;
+                }
+            }, 4000);
+        }
+        // li_arr.onclick = function () {
+        //     clearInterval(T);
+        // }
+
+    </script>
+
+</body>
+
+</html>

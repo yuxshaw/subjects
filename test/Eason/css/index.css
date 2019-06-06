@@ -1,0 +1,395 @@
+@charset "utf-8";
+
+/* 广告图样式 */
+.banner{
+    width: 100%;
+    height: 672px;
+    background: url(../images/banner_bg.png) repeat-x center center;
+    background-size: 100%;
+    position: relative;
+}
+
+.ad{
+    height: 672px;
+    display: block;
+    float: right;
+}
+
+.banner .font{
+    position: absolute;
+    top: 30.5%;
+    left: 16.5%;
+    width: 23%;
+    height: 39.3%;
+    background: url(../images/font_bg.png) no-repeat center top;
+    background-size: 100%;
+}
+
+.banner .font p,.banner .font span{
+    color: white;
+    text-align: center;
+}
+
+.banner .font p{
+    font-family: '黑体';
+    font-size: 58px;
+    margin-top: 12%;
+}
+
+.banner .font span{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-family: '宋体';
+    font-style: italic;
+    font-size: 24px;
+}
+
+.banner .font a{
+    display: block;
+    width: 94px;
+    height: 44px;
+    border: 1px solid #c5842d;
+    text-align: center;
+    line-height: 44px;
+    font-size: 24px;
+    color: #c5842d;
+    margin: 20% auto 0;
+}
+
+.banner .status{
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+}
+
+.banner .status ul{
+    width: 87px;
+    margin: 0 auto;
+}
+
+.banner .status ul li{
+    width: 29px;
+    height: 29px;
+    float: left;
+    color: #6c6c6c;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.banner .status ul li:hover{
+    color: #ffffff;
+}
+
+/* 内容样式 */
+.content .left{
+    width: 25%;
+    float: left;
+}
+
+.content .left img{
+    width: 100%;
+}
+
+.content .right{
+    float: left;
+    width: 52.4%;
+    margin-left: 11.3%;
+}
+
+.content .right .top{
+    margin-top: 20.7%;
+    border-left: 1px solid #c2c1c1;
+    padding-left: 23px;
+    width: 80%;
+}
+
+.content .right .top h2{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.content .right .top p{
+    line-height: 1.5rem;
+    font-size: 14px;
+    margin-top: 14px;
+    color: #414141;
+}
+
+.content .right .bottom .one{
+    float: left;
+    width: 40%;
+    padding-left: 23px;
+    margin-top: 14.6%;
+    cursor: pointer;
+}
+
+.content .right .bottom .one h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content .right .bottom .one span{
+    display: block;
+    font-size: 16px;
+    margin-top: 5%;
+    color: #3e3e3e;
+}
+
+.content .right .bottom .one p{
+    font-size: 10px;
+    color: #787878;
+    line-height: 18px;
+    margin-top: 8px;
+}
+
+.content .right .bottom .one img{
+    width: 100%;
+    margin-top: 6%;
+}
+
+.content .right .bottom .one a{
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    margin-top: 4%;
+    font-weight: bold;
+    color: #3e3e3e;
+}
+
+.content .right .bottom .one:hover>img{
+    box-shadow: 1px 1px 10px -1px #666;
+}
+
+.content .right .bottom .one:hover>a{
+    color: #c5842d;
+}
+
+.content .right .bottom .two{
+    float: right;
+    width: 40%;
+    padding-left: 23px;
+    margin-top: 14.6%;
+    cursor: pointer;
+}
+
+.content .right .bottom .two h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content .right .bottom .two span{
+    display: block;
+    font-size: 16px;
+    margin-top: 5%;
+    color: #3e3e3e;
+}
+
+.content .right .bottom .two p{
+    font-size: 10px;
+    color: #787878;
+    line-height: 18px;
+    margin-top: 8px;
+}
+
+.content .right .bottom .two img{
+    width: 100%;
+    margin-top: 6%;
+}
+
+.content .right .bottom .two a{
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    margin-top: 4%;
+    font-weight: bold;
+    color: #3e3e3e;
+}
+
+.content .right .bottom .two:hover>img{
+    box-shadow: 1px 1px 10px -1px #666;
+}
+
+.content .right .bottom .two:hover>a{
+    color: #c5842d;
+}
+
+/* article样式 */
+.article{
+    width: 100%;
+    height: 700px;
+    background: url(../images/article_bg.png) no-repeat center center;
+    background-size: 100%;
+}
+
+.article .art{
+    width: 18.9%;
+    padding-top: 10.4%;
+    margin-left: 64.8%;
+}
+
+.article .art h2{
+    font-size: 22px;
+    font-weight: bold;
+    color: #c5842d;
+}
+
+.article .art p{
+    margin-top: 10%;
+    font-size: 12px;
+    color: #c6c6c6;
+    line-height: 23px;
+}
+
+.article .art a{
+    width: 100px;
+    height: 30px;
+    display: block;
+    border: 1px solid #c5842d;
+    font-size: 16px;
+    color: #c5842d;
+    line-height: 1.7rem;
+    text-align: center;
+    margin-left: 62%;
+    margin-top: 12%;
+}
+
+/* show样式 */
+.show{
+    width: 100%;
+}
+
+.show h2{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.show p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 1%;
+}
+
+.show .list{
+    position: relative;
+    width: 85%;
+    height: 29rem;
+    margin: 2% auto 0;
+}
+
+.show .list .left, .show .list .right{
+    position: absolute;
+    width: 36px;
+    height: 39px;
+    top: 45%;
+    cursor: pointer;
+}
+
+.show .list .left{
+    left: -5%;
+}
+
+.show .list .right{
+    right: -5%;
+}
+
+.show .list ul{
+    width: 100%;
+    height: 100%;
+}
+
+.show .list ul li{
+    width: 23%;
+    margin: 0 1%;
+    text-align: center;
+    float: left;
+}
+
+.show .list ul li h2{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 7%;
+    opacity: 0;
+    height: 1rem;
+}
+
+.show .list ul li img{
+    height: 58%;
+    margin-top: 10%;
+}
+
+.show .list ul li p{
+    font-size: 12px;
+    color: #000;
+    line-height: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+.show .list ul li:hover h2{
+    opacity: 1;
+}
+
+.show .list ul li:hover{
+    background-color: #ffffff;
+    box-shadow: 0 0 8px #999999;
+    /* transform: scale(1.1); */
+}
+
+.show .more{
+    display: block;
+    width: 73px;
+    height: 26px;
+    margin: 0 auto 3%;
+    border: 1px solid #e6e6e5;
+    line-height: 26px;
+    text-align: center;
+    color: #979696;
+}
+
+/* product样式 */
+.product{
+    width: 100%;
+    height: 680px;
+    background: url(../images/product_bg.png) no-repeat center center;
+    background-size: 100%;
+}
+
+.product .content{
+    width: 34.7%;
+    margin-left: 6%;
+    padding-top: 18%;
+}
+
+.product .content h2{
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+
+.product .content p{
+    margin-top: 3%;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+
+.product .content a{
+    display: block;
+    width: 125px;
+    height: 35px;
+    border: 1px solid #c5842d;
+    color: #c5842d;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+    margin: 3% auto;
+}
+

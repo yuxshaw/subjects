@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* 公共样式 */
+/* 整体样式 */
+body{
+    width: 100%;
+    height: 100%;
+    background: url('../images/body_bg.png')  repeat-y center center;
+    background-size: 100%;
+}
+
+/* 主页样式 */
+/* header */
+.logo{
+    display: block;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+
+nav{
+    width: 100%;
+    height: 44px;
+    background-color: #363636;
+}
+
+nav ul{
+    width: 63%;
+    height: 44px;
+    margin: 0 auto;
+}
+
+nav ul li{
+   float: left;
+   width: 16.66%;
+   height: 44px;
+   line-height: 44px;
+   text-align: center;
+}
+
+nav ul li a{
+    font-size: 14px;
+    color: white;
+}
+
+nav .active{
+    background: url(../images/nav_bg.gif) no-repeat center bottom;
+}
+
+nav .active a{
+    color: #c5842d;
+}
+
+
+nav ul li:hover{
+    background: url(../images/nav_bg.gif) no-repeat center bottom;
+}
+
+nav ul li:hover>a{
+    color: #c5842d;
+}
+
+/* footer样式 */
+footer{
+    width: 100%;
+}
+
+footer .top{
+    width: 100%;
+    background-color: #000000;
+}
+
+footer .top img{
+    width: 100%;
+}
+
+footer .list{
+    position: relative;
+    width: 68%;
+    height: 14rem;
+    margin: 0 auto;
+}
+
+footer .list ul{
+    width: 100%;
+    height: 100%;
+}
+
+footer .list ul li{
+    float: left;
+    width: 15.3%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer .list ul li h2{
+    font-size: 18px;
+    color: #cfcaca;
+    text-align: center;
+    margin-top: 18%;
+    margin-bottom: 0.7rem;
+}
+
+footer .list ul li a{
+    font-size: 12px;
+    color: #999999;
+    margin-top: 2%;
+}
+
+footer .list ul li a:hover{
+    color: #ffffff;
+}
+
+footer .bottom{
+    background-color: #363636;
+    width: 100%;
+}
+
+footer .bottom .list{
+    position: relative;
+    width: 54.5%;
+    height: 3rem;
+}
+
+footer .bottom .list ul{
+    width: 100%;
+    height: 100%;
+}
+
+footer .bottom .list ul li{
+    float: left;
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer .bottom .list ul p{
+    font-size: 12px;
+    color: #999999;
+    line-height: 3rem;
+}
+
+@media screen and (max-width:1920px){
+
+}
+
+@media screen and (max-width:1600px){
+    
+}
+
+@media screen and (max-width:1440px){
+    
+}
+
+@media screen and (max-width:1366px){
+    
+}
+
+@media screen and (max-width:1280px){
+    
+}
+
+@media screen and (max-width:1024px){
+    
+}
+
+@media screen and (max-width:800px){
+    
+}

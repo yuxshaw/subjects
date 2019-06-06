@@ -1,0 +1,131 @@
+.content{
+    width: 100%;
+}
+.content>span{
+    margin-left: 20%;
+    font-size: 14px;
+}
+.content .detail{
+    width: 1000px;
+    margin: 46px auto 0;
+}
+.content .detail .det_img{
+    background-color: #ffffff;
+    width: 350px;
+    text-align: center;
+}
+.content .detail .det_img>img{
+    margin:  0 auto;
+    width: 175px;
+    height: 350px;
+}
+.content .detail .det_con{
+    margin: 30px 0 0 84px;
+}
+.content .detail .det_con h2{
+    font-size: 26px;
+}
+.content .detail .det_con>span{
+    display: block;
+    font-size: 14px;
+    margin-top: 22px;
+}
+.content .detail .det_con .det_list{
+    width: 250px;
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+.content .detail .det_con .det_list>li{
+    padding: 5px 15px;
+    background-color: #424f5c;
+    color: #ffffff;
+    font-size: 14px;
+}
+.content .detail .det_con .title_list{
+    width: 320px;
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+.content .detail .det_con .title_list>li{
+    padding: 0 16px;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: border-box;
+    font-size: 14px;
+    cursor: pointer;
+}
+.content .detail .det_con .title_list>li:hover{
+    border-top: 2px solid #85b200;
+}
+.btn-active{
+    border-top: 2px solid #85b200;
+}
+.content .detail .det_con .word{
+    width: 520px;
+}
+.content .detail .det_con .word>p{
+    font-size: 14px;
+    line-height: 22px;
+    text-indent: 2em;
+    display: none;
+}
+.content .show_list{
+    width: 1100px;
+    margin: 154px auto 0;
+    position: relative;
+    
+}
+.content .show_list .show_title{
+    height: 32px;
+    background-color: #ededed;
+}
+.content .show_list .show_title>p{
+    width: 114px;
+    height: 30px;
+    line-height: 28px;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-size: 14px;
+}
+.content .show_list .box{
+    width: 900px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.content .show_list .box .box_list{
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+    transition: all 1s linear;
+}
+.content .show_list .box .box_list>li{
+    float: left;
+    width: 180px;
+    text-align: center;
+    margin-top: 60px;
+}
+.content .show_list .box .box_list>li>img{
+    width: 100px;
+    height: 200px;
+}
+.content .show_list .box .box_list>li>p{
+    margin-top: 12px;
+    font-size: 14px;
+}
+.show_list .btn{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    font-size: 80px;
+    line-height: 50px;
+    text-align: center;
+    color: #aaaaaa;
+    top: 50%;
+    cursor: pointer;
+}
+#next{
+    right: 0;
+}

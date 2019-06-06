@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户注册</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="./css/register.css" />
+    <style>
+        .danger{
+            display: inline;
+            font-size: 10px;
+            color: red;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <!-- logo部分 -->
+        <div class="logo fl">
+            <a href="index.html">
+                <img src="./images/logo.png" />
+            </a>
+        </div>
+        <!-- 导航部分 -->
+        <div class="nav-box fr">
+            <div class="login fr">
+                <div class="box">
+                    <a href="login.html">登录</a>
+                    <a href="register.html">注册</a>
+                    <a href="">帮助</a>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <ul class="nav">
+                <li>
+                    <!-- 一级导航 -->
+                    <a href="contact.html">关于我们</a>
+                    <!-- 二级导航 -->
+                    <ul class="nav-sub" style="display:block;">
+                        <li><a href="ceo.html">CEO致辞</a></li>
+                        <li><a href="history.html">公司历史</a></li>
+                        <li><a href="">企业文化</a></li>
+                        <li><a href="">组织结构</a></li>
+                        <li><a href="">合作伙伴</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="product_list.html">产品展示</a>
+                    <!-- 二级导航 -->
+                    <ul class="nav-sub">
+                        <li><a href="">CEO致辞</a></li>
+                        <li><a href="">公司历史</a></li>
+                        <li><a href="">企业文化</a></li>
+                        <li><a href="">组织结构</a></li>
+                        <li><a href="">合作伙伴</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="news_list.html">新闻中心</a>
+                    <!-- 二级导航 -->
+                    <ul class="nav-sub">
+                        <li><a href="">CEO致辞</a></li>
+                        <li><a href="">公司历史</a></li>
+                        <li><a href="">企业文化</a></li>
+                        <li><a href="">组织结构</a></li>
+                        <li><a href="">合作伙伴</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="recruit.html">人才招聘</a>
+                    <!-- 二级导航 -->
+                    <ul class="nav-sub">
+                        <li><a href="">CEO致辞</a></li>
+                        <li><a href="">公司历史</a></li>
+                        <li><a href="">企业文化</a></li>
+                        <li><a href="">组织结构</a></li>
+                        <li><a href="">合作伙伴</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="guest.html">客户留言</a>
+                    <!-- 二级导航 -->
+                    <ul class="nav-sub">
+                        <li><a href="">CEO致辞</a></li>
+                        <li><a href="">公司历史</a></li>
+                        <li><a href="">企业文化</a></li>
+                        <li><a href="">组织结构</a></li>
+                        <li><a href="">合作伙伴</a></li>
+                    </ul>
+                </li>
+                <div class="clearfix"></div>
+            </ul>
+        </div>
+        <!-- 清除浮动 -->
+        <div class="clearfix"></div>
+    </div>
+
+    <!-- 内容部分 -->
+    <div class="content">
+        <!-- 广告图 -->
+        <div class="banner">
+            <img src="images/banner02.png" alt="">
+            <img class="rope" src="images/rope.png" alt="">
+        </div>
+        <!-- 侧边栏 -->
+        <aside class="fl">
+            <p>INFORMATION</p>
+            <h2>会员信息</h2>
+            <ul>
+                <li><a href="login.html">会员登录</a></li>
+                <li><a href="register.html">会员注册</a></li>
+                <li><a href="guest.html">客户留言</a></li>
+            </ul>
+        </aside>
+        <!-- 文字内容 -->
+        <article class="fl">
+            <div class="top">
+                <h2 class="fl">注册</h2>
+                <span class="fr">首页 > 注册</span>
+                <div class="clearfix"></div>
+            </div>
+            <div class="center fr">
+                <img src="images/earth02.png" alt="">
+            </div>
+            <div class="clearfix"></div>
+            <div class="bottom">
+                <h2>Member Register</h2>
+                <form action="login.html" name="register">
+                    <table>
+                        <tr>
+                            <td align="right">用户名</td>
+                            <td>&emsp;</td>
+                            <td>
+                                <input type="text" name="username"><span class="danger"> 用户名不能为空！</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">密&emsp;码</td>
+                            <td>&emsp;</td>
+                            <td>
+                                <input type="password" name="pwd"><span class="danger"> 密码不能为空！</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">确认密码</td>
+                            <td>&emsp;</td>
+                            <td>
+                                <input type="password" name="pwd_confirm"><span class="danger"> 两次密码不一致！</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">电子邮箱</td>
+                            <td>&emsp;</td>
+                            <td>
+                                <input type="email" name="email"><span class="danger"> 邮箱不能为空不能为空！</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">性&emsp;别</td>
+                            <td>&emsp;</td>
+                            <td>
+                                <input type="radio" name="sex" id="male" value="male"><label for="male">男</label>
+                                <input type="radio" name="sex" id="female" value="female"><label for="female">女</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">个人介绍</td>
+                            <td>&emsp;</td>
+                            <td>
+                                <textarea name="grief" id="" cols="40" rows="5"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>&emsp;</td>
+                            <td>
+                                <input class="submit" type="submit" onclick="return validate()"  value="注册">
+                                <input class="submit" type="reset" value="重置">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </article>
+        <div class="clearfix"></div>
+    </div>
+
+    <!-- 页脚 -->
+    <div class="footer">
+        <div class="left fl">
+            <p>地址：广东省广州市海珠区新港西路231号3栋4层&emsp;联系人：乐乐&emsp;移动电话：13588888888&emsp;固定电话：020-1234567</p>
+            <p> COPYRIGHT ⓒ WENGDO company. All rights reserved. </p>
+        </div>
+        <div class="right fr">
+            <select name="href" id="">
+                <option value="">友情链接</option>
+                <option value=""><a href="http://www.baidu.com">百度</a></option>
+                <option value=""><a href="http://www.qq.com">腾讯</a></option>
+                <option value=""><a href="http://www.163.com">网易</a></option>
+            </select>
+        </div>
+    </div>
+
+    <script>
+        var reg = document.forms['register'];
+        var user = reg['username'];
+        // console.log(user.parentNode.nextElementSibling.childNodes);
+        function validate(){
+            var reg = document.forms['register'];
+            //用户名验证
+            var user = reg['username'];
+            if(user.value.length === 0){
+                // user.nextElementSibling.style.display = 'block';
+                alert('用户名不能为空，请重新输入！');
+                return false;
+            }else if(user.value.length > 16){
+                // user.nextElementSibling.style.display = 'block';
+                // user.nextElementSibling.innerHTML = '用户名不能超过16个字符！';
+                alert('用户名不能超过16个字符，请重新输入！');
+                return false;
+            }else{
+                user.nextElementSibling.style.display = 'none';
+            }
+            //密码验证
+            var pwd = reg['pwd'];
+            if(pwd.value.length === 0){
+                alert('密码不能为空，请重新输入！');
+                return false;
+            }else if(pwd.value.length < 6){
+                alert('密码不能少于6位，请重新输入！');
+                return false;
+            }else{
+
+            }
+            //判断两次密码是否一致
+            var conf_pwd = reg['pwd_confirm'];
+            if(conf_pwd.value !== pwd.value){
+                alert('两次密码不一致，请重新输入！');
+                return false;
+            }else{
+
+            }
+            //邮箱验证
+            var email = reg['email'];
+            if(email.value.length === 0){
+                alert('邮箱不能为空，请重新输入！')
+                return false;
+            }else{
+
+            }
+            //性别验证
+            var sex = reg['sex'];
+            if(sex.value === ''){
+                alert('请选择你的性别！');
+                return false;
+            }else{
+                
+            }
+
+            alert('恭喜你，注册成功！');
+        }
+    </script>
+
+</body>
+
+</html>

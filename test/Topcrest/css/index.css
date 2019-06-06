@@ -1,0 +1,166 @@
+
+/* 轮播图样式 */
+#banner {
+    background-color: rgba(0, 0, 0, .7);
+}
+#banner .item > img{
+    margin: 0 auto;
+}
+
+/* 产品展示模块样式 */
+#product-title .pro-title{
+    background-color: #ffffff;
+    padding: 27px 0 15px;
+}
+#product-title .pro-title > h3{
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+}
+#product-title .pro-title > h3::before{
+    position: absolute;
+    content: "";
+    left: 30%;
+    top: 24px;
+    width: 170px;
+    border-top: 3px solid #4b4b4b;
+}
+#product-title .pro-title > h3::after{
+    position: absolute;
+    content: "";
+    right: 30%;
+    top: 24px;
+    width: 170px;
+    border-top: 3px solid #4b4b4b;
+}
+#product-title .pro-title > span{
+    font-size: 12px;
+    color: #7e7e7e;
+}
+
+#pro-list{
+    width: 100%;
+    background: url(../images/banner_bg.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    padding-top: 40px;
+    position: relative;
+}
+#pro-list .lists{
+    margin-bottom: 62px;
+}
+#pro-list .lists img{
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px ;
+}
+#pro-list .lists p{
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+
+/* 新闻资讯样式 */
+#news-title .pro-title{
+    background-color: #ffffff;
+    padding: 27px 0 15px;
+}
+#news-title .pro-title > h3{
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+}
+#news-title .pro-title > h3::before{
+    position: absolute;
+    content: "";
+    left: 30%;
+    top: 24px;
+    width: 170px;
+    border-top: 3px solid #4b4b4b;
+}
+#news-title .pro-title > h3::after{
+    position: absolute;
+    content: "";
+    right: 30%;
+    top: 24px;
+    width: 170px;
+    border-top: 3px solid #4b4b4b;
+}
+#news-title .pro-title > span{
+    font-size: 12px;
+    color: #7e7e7e;
+}
+#news{
+    padding: 80px 0 70px;
+}
+#news a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #215a65;
+    border-radius: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-family: '黑体';
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+/* 关于我们 */
+#about-title .abt-title{
+    background-color: #ffffff;
+    padding: 27px 0 15px;
+}
+#about-title .abt-title > h3{
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+}
+#about-title .abt-title > h3::before{
+    position: absolute;
+    content: "";
+    left: 30%;
+    top: 24px;
+    width: 170px;
+    border-top: 3px solid #4b4b4b;
+}
+#about-title .abt-title > h3::after{
+    position: absolute;
+    content: "";
+    right: 30%;
+    top: 24px;
+    width: 170px;
+    border-top: 3px solid #4b4b4b;
+}
+#about-title .abt-title > span{
+    font-size: 12px;
+    color: #7e7e7e;
+}
+#about{
+    background: url(../images/banner_bg1.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    padding: 94px 0 125px;
+}
+#about .abt-con{
+    background: url(../images/about_bg.png) no-repeat center center;
+    background-size: 56% 100%;
+    padding: 74px 0 24px;
+}
+#about .abt-con p{
+    width: 532px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 24px;
+}
+#about .abt-con a{
+    display: block;
+    width: 88px;
+    height: 28px;
+    background-color: #292929;
+    line-height: 28px;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 46px auto 0;
+}

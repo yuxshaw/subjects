@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+/* header样式 */
+header{
+    width: 750px;
+    height: 150px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+header .logo{
+    margin: 19px 0 10px 39px;
+}
+
+header input{
+    width: 268px;
+    height: 55px;
+    border: 2px solid #ff9344;
+    border-radius: 50px; 
+    font-size: 24px;
+    margin: 51px 0 0 73px;
+    text-indent: 1em;
+}
+
+header .search{
+    margin: 64px 0 0 -55px;
+    cursor: pointer;
+}
+
+header .opt{
+    -webkit-appearance: none;
+    outline: none;
+    width: 163px;
+    height: 60px;
+    border: 2px solid #ff9344;
+    font-size: 26px;
+    border-radius: 5px;
+    padding: 10px;
+    background: url(../images/opt.png) no-repeat 90% center;
+    margin: 48px 0 0 65px;
+    cursor: pointer;
+}
+
+
+/* banner样式 */
+.banner{
+    width: 750px;
+    height: 285px;
+    background: url(../images/banner.jpg) no-repeat center center;
+    background-size: 100%;
+}
+
+
+/* content样式 */
+.content{
+    width: 750px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.content .top{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content .top .title h2{
+    line-height: 52.8px;
+    margin: 34px 0 0 20px;
+    font-size: 30px;
+}
+
+.content .top .title a{
+    display: block;
+    line-height: 26.4px;
+    margin: 53px 20px 0 0;
+    font-size: 24px;
+    color: black;
+}
+
+.content .top .image{
+    margin: 17px auto;
+    width: 580px;
+}
+
+.content .top .image ul{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content .top .image ul li{
+    width: 239px;
+    float: left;
+    margin-right: 102px;
+    margin-bottom: 30px;
+}
+
+.content .top .image ul li:nth-child(2n){
+    margin-right: 0;
+}
+
+.content .bottom .title{
+    margin: 5px auto;
+}
+
+.content .bottom .title h2{
+    line-height: 52.8px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.content .bottom .title a{
+    display: block;
+    line-height: 26.4px;
+    margin: 13.2px 20px 0 0;
+    font-size: 24px;
+    color: black;
+}
+
+.content .bottom .list{
+    width: 712px;
+    margin: 0 auto;
+}
+
+.content .bottom .list ul{
+    width: 100%;
+}
+
+.content .bottom .list ul li{
+    margin-top: 30px;
+    height: 164px;
+}
+
+.content .bottom .list ul li .words{
+    width: 480px;
+}
+
+.content .bottom .list ul li .words h2{
+    font-size: 30px;
+    margin-top: 28px;
+}
+
+.content .bottom .list ul li .words span{
+    display: block;
+    font-size: 20px;
+    color: #494949;
+    float: right;
+    margin-top: -30px;
+}
+
+.content .bottom .list ul li .words p{
+    font-size: 22px;
+    color: #494949;
+    margin-top: 10px;
+}
+
+.content .bottom .list ul li .words h3{
+    font-size: 32px;
+    color: #ff9344;
+    margin-top: 10px;
+}
+
+footer{
+    margin: 0 auto;
+    width: 100%;
+}

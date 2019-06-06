@@ -1,0 +1,72 @@
+.content{
+    width: 100%;
+    padding-bottom: 74px;
+}
+/* 选项卡样式 */
+.content .choselist{
+    width: 1000px;
+    margin: 0 auto;
+}
+.content .choselist span{
+    float: left;
+    font-size: 16px;
+    color: #1f1f1f;
+    line-height: 26px;
+}
+.content .choselist .chose{
+    float: left;
+    width: 500px;
+    height: 26px;
+    line-height: 24px;
+    background-color: #424f5c;
+    border-radius: 20px;
+}
+.content .choselist .chose>li{
+    float: left;
+    width: 100px;
+    height: 26px;
+    text-align: center;
+}
+.content .choselist .chose>li:first-child{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.content .choselist .chose>li:nth-child(5){
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#active{
+    background-color: #a32675;
+}
+.content .choselist .chose>li:hover{
+    background-color: #a32675;
+}
+.content .choselist .chose>li>a{
+    font-size: 16px;
+    color: #fff;
+}
+
+/* 详情样式 */
+.content .listbox{
+    width: 1000px;
+    margin: 0 auto;
+}
+.content .listbox .list-info{
+    width: 100%;
+    display: none;
+}
+.content .listbox .list-info >li{
+    float: left;
+    width: 250px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px 0;
+    cursor: pointer;
+}
+.content .listbox .list-info >li:hover{
+    box-shadow: 0 0 3px 1px #ccc;
+}
+.content .listbox .list-info >li>p{
+    font-size: 18px;
+    margin-top: 30px;
+}

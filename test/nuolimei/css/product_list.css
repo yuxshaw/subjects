@@ -1,0 +1,66 @@
+/* product样式 */
+.product{
+    width: 100%;
+    position: relative;
+}
+.product .listbox{
+    width: 1060px;
+    overflow: hidden;
+    margin: 10px auto;
+}
+.product .list{
+    /* width: 1060px; */
+    /* overflow: hidden; */
+    /* margin: 0 auto; */
+    /* display: flex; 
+    justify-content: space-between; */
+    position: relative;
+    left: 0;
+    transition: all 1s linear;
+}
+.product .list>li{
+    float: left;
+    width: 212px;
+    text-align: center;
+    cursor: pointer;
+}
+.product .list>li p{
+    margin:60px auto 0;
+    width: 90px;
+    height: 32px;
+    line-height: 32px;
+    background-color: #46525f;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+.product .list>li:hover>a>p{
+    background-color: #fc8136;
+}
+.product .btn{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    line-height: 85px;
+    text-align: center;
+    opacity: .5;
+    color: #fc8136;
+    font-size: 100px;
+    top: 50%;
+    margin-top: -50px;
+    cursor: pointer;
+    display: none;
+}
+.product .btn:hover{
+    opacity: 1;
+}
+#prev{
+    left: 80px;
+}
+#next{
+    right: 80px;
+}
+.product:hover> .btn{
+    display: block;
+}
